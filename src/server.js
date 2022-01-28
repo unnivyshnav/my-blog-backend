@@ -69,4 +69,6 @@ app.get('*', (req,res) => {
   res.sendFile(path.join(__dirname + '/build/index.html'));
 })
 
-app.listen(8000, () => console.log('Server is running on port 8000'));
+app.listen(process.env.PORT || 5000,()=>{
+  console.log("Server Ready on 5000"); //Part #1 Point 5
+});
