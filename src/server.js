@@ -12,7 +12,7 @@ app.use(express.urlencoded({extended: true}));
 
 const withDB = async (operations, res) => {
   try {
-    const client = await MongoClient.connect('mongodb://localhost:27017');
+    const client = await MongoClient.connect('mongodb+srv://unnivyshnav:9847644201aA@cluster0.e5nw4.mongodb.net/my-blog?retryWrites=true&w=majority');
     const db = client.db('my-blog');
 
     await operations(db);
