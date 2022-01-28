@@ -1,23 +1,15 @@
 {
-  "name": "my-blog-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon --exec npx babel-node src/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "express": "^4.17.2",
-    "mongodb": "^4.3.1"
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.12",
-    "@babel/node": "^7.16.8",
-    "@babel/preset-env": "^7.16.11"
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "nodemon": "^2.0.15"
   }
 }
