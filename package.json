@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "babel-version": "babel --version",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon --exec npx babel-node src/server.js"
   },
